@@ -1,0 +1,101 @@
+.pagar{
+    height: 508px;
+    width:55%;
+    padding-left:16px;
+    padding-right:16px;
+}
+.pagar .cartao{
+    border-bottom:1px solid #eaeaea;
+}
+.pagar .cartao h2{
+margin-left: 23px;
+    color:#777879;
+    font-size:16px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.pagar .cartao ul{
+    display: flex;
+    list-style: none;
+    margin-left: 23px;;
+}
+.pagar .cartao a{
+text-decoration: none;
+   
+}
+.pagar .cartao small{
+ color:#c6c6c6;
+    
+}
+.pagar .cartao li{
+display:flex;
+    
+    text-align: center;
+    
+    height: 96px;
+    width: 108px;
+    border-radius:3px;
+}
+.pagar .cartao li :hover{
+background-color: #f5f9fd;
+   box-shadow: inset 0 0 2px #d1e3f5;
+   
+}
+.pagar .cartao img{
+    margin-top: 12px;
+    width: 73px;
+    height: 48px;
+}
+.pagar .dados ul {
+    list-style: none; 
+    
+}
+.pagar .dados input{
+    width: 270px;
+    height: 40px;
+    margin-top: 24px;
+    border-radius: 2px;
+    border:1px solid #dfdfdf;
+}
+.pagar .dados li.medio input{
+width: 149px;
+    margin-right: 25px;
+} 
+.pagar .dados li.pequeno input{
+width: 96px;
+}
+.pagar .dados div{
+display: flex;
+}
+.pagar .dados li.box{
+    margin-top: 8px;
+display: flex;
+    align-items: center;
+}
+.pagar .dados li.box input{
+     width: 15px;
+   margin-top: 0;
+   
+    
+}
+::-webkit-input-placeholder{
+    color: #c4cbd0;
+}
+.pagar .dados label{
+color:#777879;
+    margin-left: 7px;
+    font-size: 14px;
+}
+.pagar .dados button{
+width: 289px;
+    height: 44px;
+    margin-top: 36px;
+    
+    background-color: #8bd638;
+    color:#fff;
+    font-family: 'muliextrabold';
+    font-size:16px;
+    
+    border-radius:2px;
+    border:1px solid #8bd638 ;
+}

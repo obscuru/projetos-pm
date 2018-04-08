@@ -1,0 +1,40 @@
+header{
+height: 42px;
+    border-bottom: 1px solid #eaeaea;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div{
+    display: flex;
+   align-items: center;
+}
+header div span{
+color:#4a4a4a;
+    font-size:12px;
+    opacity: 0.5;
+    
+
+}
+header h1 {
+font-family: 'muliextrabold';
+font-size:18px;
+    color:#5e5f5f;
+}
+header h1 {
+    margin-left: 24px;
+    margin-right: 8px;
+}
+header b{
+font-family: 'muliextrabold';
+}
+header a span{
+    visibility: hidden;
+}
+header a {
+background-image: url(../images/page-1.png);
+    background-repeat: no-repeat;
+    height: 17px;
+    width: 17px;
+    margin-right: 18px;
+}

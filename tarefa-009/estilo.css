@@ -1,0 +1,31 @@
+@import url(header.css);
+@import url(pagar.css);
+@import url(conferir.css);
+html{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: url(../images/rectangle-12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'muliregular';
+    
+}
+
+.check{
+    height: 558px;
+    width: 688px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(0 ,0 ,0 ,0.27);
+    
+}
+h1 ,h2 ,h3 ,h4 ,ul{
+    margin: 0;padding: 0;
+}
+
+main {
+display:flex;
+}
+
+

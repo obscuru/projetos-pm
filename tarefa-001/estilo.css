@@ -1,0 +1,42 @@
+*{
+    padding:0px;
+    margin:0px;  
+    background-color: #ecf0fa;
+}
+h1{
+text-align:center;
+    
+}
+
+h3{
+text-align:center;
+    text-transform: uppercase;
+    color:#666;
+}
+
+ul{
+   margin : 12px;
+    margin-top:0px;
+}
+        
+  
+
+li{
+    background-color: #9b59b6;
+    margin-bottom:12px;
+    padding:12px;
+    font-size: 18px;
+    list-style-type: none;
+    color:#fff;
+    
+}
+
+
+
+
+
+
+
+
+
+

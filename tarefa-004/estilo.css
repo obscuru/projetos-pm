@@ -1,0 +1,41 @@
+ul{
+    margin:0px;
+    padding:0px;
+}
+li{
+   list-style-type: none;
+    margin-bottom: 3px;
+    background-color: #4a4a4a;
+    padding:60px 31px 60px 80px;
+    background-image: url(vazio.png);
+background-repeat: no-repeat;
+    background-position: 28px center;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display:block;
+    background-image: url(seta.png);
+    background-repeat:no-repeat;
+    background-position: right center;
+font-size: 20px;
+font-family:'oswald' ,'sans-serif' ;
+letter-spacing: 2px;
+-webkit-font-smoothing:antialiased ;   
+}
+li:hover{
+    background-color: #6e6e6e;
+    
+}
+li.feito{
+    background-color: #27ae60;
+    background-image: url(feito.png);
+    background-repeat: no-repeat;
+background-position: 28px center;
+}
+
+li.feito:hover{
+    background-color: #52be7f;
+}
+

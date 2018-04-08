@@ -1,0 +1,269 @@
+/*Dividimos o codigo em varias sections
+com divs de class container sendo alem do header
+conheca depoimento convite e terminamos com footer
+
+.container organiza todos os containers
+*/
+
+.container{
+    
+    margin: 0 auto;
+    max-width: 960px;
+    display:flex;
+    justify-content: space-between;
+}
+body{
+    font-family: "lato", "sans-serif";
+    -webkit-font-smoothing:antialiased;
+}
+
+/* 
+Aqui começa o codigo do header
+(logo e os atalhos "conheça, depoimentos e convite")
+Para posicionar o logo utilizei image replacement 
+*/
+
+header nav li{
+    list-style: none;
+    display: inline-block;
+     margin-right:100px;
+}
+header nav li:last-child{
+    border: 1px solid #fff;
+    border-radius:2px;
+    padding:12px 31px 12px 20px;
+}
+header h1{
+ background-image: url(logo.png);
+    background-repeat: no-repeat;
+    margin:0px;
+    margin-top:17px;
+    height:80px;
+    width:180px;
+    
+   
+}
+header h1 span {  
+    visibility: hidden;    
+}
+header .container li a{
+    color:#fff;
+    text-decoration: none;
+font-size: 20px;
+   font-weight:300;
+    
+}
+header ul {
+    margin-right: 10px;
+   
+}
+/*
+Termino da base do logo e atalhos.
+Apartir daqui arrumamos o resto do topo
+e colocamos margin negativo para q sobreponha o
+header.(colocamos o background-image)
+*/
+section#topo{
+    background-image: url(fundo.png);
+    background-size: cover;
+    height: 900px;
+    margin-top: -97px;
+    color: #fff;
+        
+}
+/* criei uma div class chamada para facilitar o posicionamento dos dados do topo */
+section#topo .chamada{
+    margin-top:237px;
+        height: 219px;
+    width:460px;
+    text-align: center;
+    
+  
+}
+section#topo .chamada h1{
+    
+    font-size:50px;
+    font-weight: 400;
+    margin:5px 10px 18px 10px;
+} 
+section#topo .chamada p{
+    font-weight: 300;
+    font-size:36px;
+    word-spacing: 3px;
+    margin-top: -15px;
+}
+section#topo .chamada button{
+    color:#fff;
+    background-color:#ff3d7f ;
+    width: 100%;
+    height: 94px;
+    border:none;
+    font-size:36px;
+    font-family:"lato" , "sans-serif";
+    font-weight:300;
+    box-shadow: 0px 6px 0px #a32751;
+  border-radius: 3px;
+}
+/*
+Aqui termina o topo e começa a section conheca 
+*/
+section#conheca .container img{
+    margin-top: 74px;
+    
+}
+section#conheca .chamada{
+    margin:128px 0px 0px 100px;
+   text-align: left;
+    padding-right: 30px;
+}
+section#conheca .chamada h2{
+    font-size: 36px;
+    font-family: "lato" , "sans-serif";
+margin-top: 0px;
+    
+    
+}
+section#conheca .chamada p{
+    font-family: "lato" , "sans-serif";
+    font-size:24px;
+    font-weight:300;
+    
+}
+section#conheca .chamada button{
+    margin-top:35px;
+    color:#fff;
+    border:none;
+    background-color: #ff3d7f;
+    font-family:"lato","sans-serif";
+    font-size:30px ;
+    font-weight:300;
+    width: 60%;
+    height:79px;
+    border-radius;3px;
+    box-shadow: 0px 6px 0px #a32751;
+    
+}
+/*  
+aqui comeca o depoimento
+*/
+section#depoimento{
+    margin-top:82px;
+    background-color: #ebe8fb;
+    border-top:3px solid #511099;
+    text-align: center;
+    
+   
+  
+}
+section#depoimento .container{
+    display:block;
+     padding-top:63px;
+   padding-bottom:90px;
+}
+section#depoimento .container p{
+     font-family: "lato" , "sans-serif";
+    font-size:24px;
+    font-weight:300;
+    margin-top:26px;
+
+}
+/* aqui comeca o convite */
+section#convite{
+    background-image: url(fundo-convite.png);
+  padding-top: 200px;
+    padding-bottom: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+section#convite .container{
+    flex-direction: column;
+    align-items: center;
+    
+}
+form{
+    width:50%;
+   border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: flex;
+}
+input{
+    width: 75%;
+    padding:30px;
+    background-color: transparent;
+    border:none;
+   
+}
+section#convite button{
+    background-image: url(botao-convite.png);
+    background-color: transparent;
+    border:none;
+    height: 43px;
+    width:87px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-right:20px; 
+    
+}
+section#convite button span{
+    visibility: hidden;
+}
+/*aqui começa o footer*/
+footer{
+    background-color: #2a0157;
+    
+}
+footer .container{
+    margin-top:3px;
+    padding-top:38px;
+    padding-bottom:38px;
+    flex-direction: column;
+    text-align: center;
+    
+}
+footer .container p{
+     color:#fff;
+    font-family:"lato" , "sans-serif";
+    font-size:18px;
+    font-weight:300;
+    
+}
+/*ajustes de resposividade
+*/
+@media(max-width:600px){
+    header .container{
+    padding:20px;
+}
+    header nav{
+        display: none;
+    }
+    header h1{
+        margin-left: 20px
+    }
+    section#conheca .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    section#conheca .chamada{
+        padding:0px 30px 0px 30px;
+        margin: 0px;
+        margin-top:80px;
+        flex-direction: column;
+        align-items: center;
+    }
+    section#depoimento .container{
+        padding:30px;
+    }
+    form{
+        display:block;
+        padding-bottom:10px;
+        text-align: center;
+        }
+    footer .container{
+         padding-top:19px;
+    padding-bottom:19px;
+    }
+    }
+
+}
+

@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Open sans;
+}
+body{
+     background-color: #e6e6e6;
+}
+.noticia{
+    margin:10px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 3px 3px;
+    box-shadow: 0px 1px 1px;
+   
+}
+img{
+    width: 100%;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.noticia h2{
+    line-height: 25px;
+    margin-bottom:10px;
+    font-size: 21px;
+    
+}
+.noticia h2 a{
+color:#b5000d;
+    text-decoration: none;
+
+
+}
+
+.noticia .quando{
+    color:#999999;
+    margin-left: 10px;
+}
+
+
+p{
+    color:#333333;
+    padding-bottom:21px;
+}
+
+
+

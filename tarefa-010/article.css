@@ -1,0 +1,48 @@
+article{
+background-color: #fff;
+border-right: 1px solid #e1e1e1;
+
+    padding: 2.7em !important;
+    font-family: "lato";
+}
+article h3{
+color:#d0021b !important;
+background-color: #fff;
+padding-bottom: 3px;
+border-bottom: 1px solid #d0021b;
+    font-weight: 900 !important;
+    
+    font-size:1.125em;    
+    
+}
+article h3 span{
+    margin-left: 0.4em;
+    
+}
+article p{
+    color: #666666;
+font-family: "Lato";
+font-size: 15px;
+font-weight: 400;
+}
+
+article .content h4{
+font-weight: 700;
+    color:#3a3c40;
+   font-size: 19px;
+    margin: 0;
+
+}
+article .content h5{
+font-weight:400;
+color:#3a3c40;
+    font-size:17px;
+    margin: 0;
+}
+article .content small{
+    font-size:17px;
+    font-weight:300;
+    color:#3a3c40;
+    margin: 0;
+    
+}
